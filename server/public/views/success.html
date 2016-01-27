@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Banking Info</title>
+    <script src="vendors/angular/angular.min.js"></script>
+    <script src="assets/scripts/client.js"></script>
+</head>
+<body ng-controller="MainController">
+
+
+
+<h2>Welcome to Prime Banking</h2>
+
+Customer Name: {{user.data.first_name}} {{user.data.last_name}} Account Balance: ${{user.data.account_balance}}
+Car Loan: ${{user.data.car_loan}} Home Loan: ${{user.data.home_loan}}
+</body>
+</html>
